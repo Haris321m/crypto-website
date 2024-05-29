@@ -1,0 +1,97 @@
+.alpha-hero{
+    background-image: linear-gradient(264deg, #0c4b3ce5 50%, #515151cc 100%), url(../imgs/img.jpg); 
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 100px;
+}
+
+.Alpha .hero {
+
+    margin: auto;
+    text-align: center;
+    background: transparent;
+
+}
+
+.Alpha .hero h1{
+
+    font-size: 4em;
+    margin: auto;
+    width: 70%;
+    font-weight: 800;
+
+}
+
+.Alpha .hero p{
+
+    width: 80%;
+    margin: auto;
+    margin-top: 30px;
+    font-size: 1.3em;
+
+}
+
+.Alpha .hero button{
+
+    padding: 10px 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    font-size: 2em;
+    margin-top: 20px;
+    background: #00ff88;
+    border: none;
+    overflow: hidden;
+    border-radius: 20px;
+    transition: 0.6s;
+    gap: 0px;
+
+}
+
+.Alpha .hero button:hover{
+
+    cursor: pointer;
+    transition: 0.6s;
+    gap: 30px;
+    background: #00e67a;
+
+}
+
+.flex{
+
+    display: flex;
+
+}
+
+.Alpha .bar{
+
+    width: 80%;
+    color: white;
+    margin: auto;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-top: 10%;
+    box-shadow: 30px 30px 40px rgba(0, 0, 0, 0.527);
+
+}
+
+.Alpha .bar .header{
+
+    background: #011D16;
+    padding: 30px;
+
+}
+
+.Alpha .bar .main{
+
+    padding: 40px;
+    background: #043429;
+
+}
+
+.m-2{
+
+    margin-top: 2em;
+
+}

@@ -1,0 +1,50 @@
+.analytic {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); /* Responsive grid */
+    gap: 4rem; /* Adjust the gap as needed */
+    color: white;
+    width: 80%;
+    margin: 10% auto;
+}
+
+.analytics h3 {
+    font-family: Roboto;
+    font-size: 1.875rem; /* Equivalent to 30px */
+    font-weight: 500;
+    line-height: 1.172; /* Equivalent to 35.16px */
+    text-align: center;
+    margin-bottom: 1rem; /* Equivalent to 10px */
+}
+
+.analytics p {
+    font-family: Roboto;
+    font-size: 0.9375rem; /* Equivalent to 15px */
+    font-weight: 300;
+    line-height: 1.125; /* Equivalent to 17.58px */
+    text-align: center;
+}
+
+.analytics {
+    padding: 1.25rem; /* Equivalent to 20px */
+    border: 3px solid rgba(0, 255, 167, 1);
+    border-radius: 20px; /* Use shorthand notation */
+    transition: 0.3s;
+    width: 90%;
+}
+
+/* Responsive hover state */
+.analytics:hover {
+    transform: scale(1.1);
+    transition: 0.3s;
+    cursor: pointer;
+    background: white;
+    border-color: white;
+    color: black;
+}
+
+/* Responsive margin for container */
+@media (max-width: 768px) {
+    .analytic {
+        margin: 10% auto 5%; /* Adjust margin for smaller screens */
+    }
+}

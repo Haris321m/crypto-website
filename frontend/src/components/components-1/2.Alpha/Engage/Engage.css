@@ -1,0 +1,111 @@
+.Engage{
+
+    color: white;
+    margin-top: 10%;
+
+}
+
+.Engage .Engage-top h1{
+
+    font-size: 4em;
+    width: 70%;
+    text-align: center;
+    margin: auto;
+
+}
+
+.Engage .Engage-top p{
+
+    width: 70%;
+    text-align: center;
+    margin: auto;
+
+}
+
+.Engage .Engage-bottom{
+
+    overflow: hidden;
+
+}
+
+.Engage .Engage-bottom .positive{
+
+    display: grid;
+    grid-template-columns: repeat(3, 700px); 
+    gap: 10px;
+    animation: slideRightPositive 20s infinite alternate;
+
+}
+
+.Engage .Engage-bottom .negative{
+
+    display: grid;
+    grid-template-columns: repeat(3, 700px); 
+    margin-top: 50px;
+    gap: 10px;
+    animation: slideRightNegative 20s infinite alternate;
+
+}
+
+@keyframes slideRightPositive {
+    0% {
+      transform: translateX(-0);
+    }
+    100% {
+      transform: translateX(100%);
+    }
+  }
+  
+  @keyframes slideRightNegative {
+    0% {
+      transform: translateX(0);
+    }
+    100% {
+      transform: translateX(-100%);
+    }
+  }
+
+
+.Engage .Engage-bottom .cards{
+
+    display: flex;
+    background: #072e25;
+    width: 100%;
+    border-radius: 20px;
+    overflow: hidden;
+
+}
+
+.Engage .Engage-bottom .cards .left{
+
+    width: 200px;
+
+}
+
+.Engage .Engage-bottom .cards .left img{
+
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 0;
+
+}
+
+.Engage .Engage-bottom .cards .right{
+
+    padding: 20px;
+
+}
+
+.Engage .Engage-bottom .cards .right h1{
+
+    margin: 0;
+    height: 60px;
+
+}
+
+.Engage .Engage-bottom .cards .right p{
+
+    margin-top: 10px;
+
+}

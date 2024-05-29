@@ -1,0 +1,15 @@
+.Seen-top{
+
+    color: white;
+    text-align: center;
+
+}
+
+.Seen-bottom{
+
+    display: flex;justify-content: space-around;
+    margin: auto;
+    margin-top: 50px;
+    width: 80%;
+
+}

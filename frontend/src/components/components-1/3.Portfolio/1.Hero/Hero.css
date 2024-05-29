@@ -1,0 +1,111 @@
+.Port-Hero{
+
+    color: white;
+    text-align: center;
+    margin: 100px 0px;
+
+}
+
+.Port-Hero .Port-Hero-top h2{
+
+    font-weight: 400;
+
+}
+
+.Port-Hero .Port-Hero-top h1{
+
+    font-size: 4em;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+
+}
+
+.Port-Hero .Port-Hero-top p{
+
+    margin-top: 20px;
+    font-size: 1.3em;
+
+}
+
+
+
+.Port-Hero .Port-Hero-mid {
+    margin: auto;
+    border: 2px solid rgba(0, 255, 166, 0.52); 
+    width: 500px;
+    margin-top: 30px;
+    padding: 10px 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    transition: border 0.3s ease; 
+}
+
+.Port-Hero .Port-Hero-mid.active {
+    border: 2px solid #00ffa6; /* Solid color when active */
+}
+
+.Port-Hero .Port-Hero-mid .arrow{
+
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Port-Hero .Port-Hero-mid.active .arrow {
+    background-color: #00ffa6; 
+    padding: 10px;
+    color: black;
+}
+
+.Port-Hero .Port-Hero-mid input{
+
+    font-size: 1.5em;
+    padding: 5px;
+    width: 450px;
+    background: transparent;
+    color: white;
+    overflow: hidden;
+    outline: none;
+    border: none;
+
+}
+
+.Port-Hero .Port-Hero-bottom{
+
+    width: 80%;
+    margin: auto;
+    margin-top: 150px;
+    border-radius: 20px;
+    overflow: hidden;
+
+}
+
+.Port-Hero .Port-Hero-bottom video{
+
+    width: 100%;
+
+}
+
+.box{
+
+    width: 2px;
+    height: 2px;
+    box-shadow: 0px 0px 400px 300px rgba(0, 255, 128, 0.705);
+    z-index: -1;
+    position: absolute;
+
+}
+
+.tank-2{
+
+    position: absolute;
+    right: 0;
+    bottom: 0;
+
+}

@@ -1,0 +1,49 @@
+.BestCoverage{
+
+    color: white;
+    display: flex;
+    margin: 100px auto;
+    width: 80%;
+    justify-content: space-between;
+
+}
+
+.BestCoverage .BestCoverage-left{
+
+    width: 30%;
+
+}
+
+.BestCoverage .BestCoverage-left p{
+
+    margin-top: 20px;
+
+}
+
+.BestCoverage .BestCoverage-right{
+
+    width: 500px;
+
+}
+
+.BestCoverage .BestCoverage-right video{
+
+    width: 100%;
+    border: 2px solid #00ffa6;
+
+}
+
+.BestCoverage .BestCoverage-left .support{
+
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+
+}
+
+.BestCoverage .BestCoverage-left .support h1{
+
+    font-size: 3em;
+    height: 40px;
+
+}

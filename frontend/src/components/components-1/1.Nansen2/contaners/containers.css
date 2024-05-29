@@ -1,0 +1,74 @@
+.Nansen {
+
+    width: 80%;
+    margin: auto;
+
+}
+
+.Nansen .container {
+
+    background: transparent;
+    margin-top: 0;
+
+}
+
+.Nansen .container .containers{
+
+    border-radius: 20px;
+    display: flex;
+    border: 2px solid #00FFA7;
+    background: #00301f;
+    padding: 20px;
+    margin-top: 50px;
+    color: white;
+
+}
+
+.Nansen .container .containers .left{
+
+    background: transparent;
+    padding:0px 0px;
+    text-align: left;
+    width: 60%;
+
+}
+
+.Nansen .container .containers .left .text{
+
+    margin-top: 70px;
+    text-align: left;
+
+}
+
+.Nansen .container .containers  .right{
+
+    width: 40%;
+    margin: auto;
+
+}
+
+.Nansen .container .containers  .right video{
+
+    width: 100%;
+    animation: video-1 5s infinite alternate;
+    border-radius: 20px;
+
+}
+
+@keyframes video-1 {
+
+    0%{
+
+        margin-top: 20px;
+        opacity: 0;
+
+    }
+
+    100%{
+
+        margin-top: 0px;
+        opacity: 1;
+
+    }
+    
+}

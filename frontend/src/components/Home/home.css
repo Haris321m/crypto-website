@@ -1,0 +1,22 @@
+
+.cursor {
+    width: 30px;
+    height: 30px;
+    background-color: rgba(255, 255, 255, 0.192);
+    color: white;
+    border: 3px solid white;
+    border-radius: 50%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+    z-index: 1000;
+    transform: translate(-50%, -50%);
+    transition: transform 0.1s ease-out;
+    font-size: 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 100%;
+  }

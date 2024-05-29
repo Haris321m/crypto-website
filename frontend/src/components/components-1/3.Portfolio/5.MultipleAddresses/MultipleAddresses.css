@@ -1,0 +1,43 @@
+.MultipleAddresses{
+
+    display: flex;
+    margin: 200px auto;
+    width: 80%;
+    color: white;
+    justify-content: space-between;
+
+}
+
+
+.MultipleAddresses-left{
+
+    width: 900px;
+
+}
+
+.MultipleAddresses-left img{
+    
+    width: 100%;
+    
+} 
+
+.MultipleAddresses-right{
+
+    width: 600px;
+    padding-left: 100px;
+
+}
+
+
+.MultipleAddresses-right h1{
+
+    font-size: 3em;
+
+}
+
+.MultipleAddresses-right p{
+
+    margin-top: 20px;
+    font-size: 1.3em;
+
+}

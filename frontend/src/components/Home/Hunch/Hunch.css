@@ -1,0 +1,65 @@
+.hunch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    margin: 10% 0px;
+    padding: 0 20px; /* Add padding to the sides for smaller screens */
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* Center text for smaller screens */
+}
+
+.top h1 {
+    font-family: Roboto;
+    font-size: 3rem; /* Adjust font size using rem units */
+    font-weight: 700;
+    line-height: 1.2; /* Adjust line height */
+    width: 100%; /* Full width */
+    max-width: 100%; /* Adjust maximum width */
+}
+
+.top p {
+    width: 100%; /* Full width */
+    max-width: 100%; /* Adjust maximum width */
+    font-family: Roboto;
+    font-size: 1rem; /* Adjust font size using rem units */
+    font-weight: 200;
+    line-height: 1.5; /* Adjust line height */
+    margin-top: 20px;
+}
+
+.top a {
+    width: 100%; /* Full width */
+    max-width: 100%; /* Adjust maximum width */
+    font-family: Roboto;
+    font-size: 1rem; /* Adjust font size using rem units */
+    font-weight: 100;
+    line-height: 1.2; /* Adjust line height */
+    text-align: center; /* Center text */
+    margin-top: 20px;
+    color: rgba(0, 255, 167, 1);
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column; /* Center content vertically */
+    margin-top: 5%; /* Adjust margin top using percentage */
+    width: 100%; /* Full width */
+    max-width: 100%; /* Adjust maximum width */
+    border-radius: 10px; /* Use shorthand notation */
+    background: #1C715C;
+}
+
+.video {
+    margin-top: 20px;
+    max-width: 100%; /* Adjust maximum width */
+}

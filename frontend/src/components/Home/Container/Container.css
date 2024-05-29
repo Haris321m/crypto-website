@@ -1,0 +1,35 @@
+.Home-container {
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: white;
+    border: 10px 10px 10px 10px;
+    background: #137e65;
+    width: 80%;
+    margin: 17% auto;
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.Home-container .container-top {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 35.16px;
+    text-align: center;
+}
+
+.Home-container .container-bottom {
+    margin-top: 20px;
+}
+
+.Home-container .container-bottom ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    gap: 25px;
+}
+
+.Home-container .container-bottom ul li {
+    list-style: none;
+}

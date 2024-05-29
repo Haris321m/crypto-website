@@ -1,0 +1,58 @@
+.Transparency{
+
+    display: flex;
+    margin: 200px auto;
+    width: 80%;
+    color: white;
+    justify-content: space-between;
+
+}
+
+
+.Transparency-right{
+
+    width: 900px;
+    display: flex;
+    align-items: center;
+
+}
+
+.Transparency-right img{
+    
+    width: 100%;
+    
+} 
+
+.Transparency-left{
+
+    width: 800px;
+    padding-right: 100px;
+
+}
+
+
+.Transparency-left h1{
+
+    font-size: 3em;
+
+}
+
+.Transparency-left p{
+
+    margin-top: 20px;
+    font-size: 1em;
+
+}
+
+.Transparency-left h3{
+
+    font-size: 2em;
+    margin-top: 10px;
+
+}
+
+.Transparency-left h3 a{
+
+    color: rgba(0, 255, 167, 1);
+
+}

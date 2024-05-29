@@ -1,0 +1,76 @@
+.backbone {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin: 10% 0px;
+    padding: 0 1rem;
+}
+
+.bone-top {
+    width: 100%; 
+    max-width: 60rem;
+    margin: auto;
+    text-align: center;
+}
+
+.bone-top h2 {
+    font-size: 4.5rem;
+    width: 60%;
+    margin: auto;
+    font-weight: 700;
+}
+
+.bone-middle {
+    margin-top: 2rem; 
+    width: 100%;
+    max-width: 50rem;
+    font-family: Roboto;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.5;
+    text-align: center;
+}
+
+.bone-bottom {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center;
+    gap: 1rem; 
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.stats-item {
+    flex: 1;
+    padding: 0 1rem; 
+}
+
+.stats-item h2 {
+    font-size: 3rem;
+}
+
+.mid {
+    border-left: 2px solid rgb(153, 0, 255);
+    border-right: 2px solid rgb(153, 0, 255);
+}
+
+
+@media (max-width: 768px) {
+    .backbone {
+        margin: 5% 0; 
+    }
+
+    .bone-top {
+        max-width: 100%; 
+    }
+
+    .bone-middle {
+        max-width: 100%; 
+    }
+
+    .stats-item {
+        flex: 1 0 100%; 
+    }
+}

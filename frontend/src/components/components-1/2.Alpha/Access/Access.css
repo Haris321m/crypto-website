@@ -1,0 +1,31 @@
+.Access{
+
+    width: 80%;
+    margin: auto;
+    margin-top: 10%;
+
+}
+
+.Access h1{
+
+    font-size: 5em;
+    width: 70%;
+    text-align: center;
+    color: white;
+    margin: auto;
+
+}
+
+.Access p{
+
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+
+}
+
+.Access img{
+
+    width: 100%;
+
+}
